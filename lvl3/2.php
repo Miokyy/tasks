@@ -1,7 +1,7 @@
 <?php
 
 $a = 'Липа';
-$b = 'Пилаф';
+$b = 'Пила';
 $anag;
 function areAnagrams(string $a, string $b): bool
 {
@@ -11,7 +11,6 @@ function areAnagrams(string $a, string $b): bool
 
     $masA = str_split($a);
     $masB = str_split($b);
-    
     if (count($masA) !== count($masB)) {
         return false;
     }
@@ -31,5 +30,4 @@ if ($anag) {
 } else {
     $anag = 'не анаграмма';
 }
-
 echo "$a и $b - $anag";

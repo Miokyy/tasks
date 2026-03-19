@@ -20,10 +20,3 @@ function calculateTotal(array $cart): float
 $price = calculateTotal($cart);
 
 echo "Общая стоимость товаром: $price";
-
-
-
-
-
-
-
