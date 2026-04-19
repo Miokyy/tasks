@@ -1,0 +1,17 @@
+{
+    "name": "mioky/lvl5",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mioky\\Lvl5\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+        "snif": "vendor/bin/phpstan analyse --level=8",
+        "phpstan": "./vendor/bin/phpcbf --standard=PSR12"
+    }
+}
